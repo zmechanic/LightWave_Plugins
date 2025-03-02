@@ -10,8 +10,10 @@ The layer naming convention is:
 * Assembly instruction must be in curly brackets (`{}`)
 * Assembly instruction contains step identifier
 * Steps execute in reverse from depth to root, e.g. `{1.1.1}`, `{1.1.2}`, `{1.1.3}`, ... then `{1.1}`, then `{1}`
+* When same step is used in multiple parts/sub-parts, steps can be listed semicolon `;` separated, e.g. `{1.1.2;2.1.3}`
 * Operations are additive (copy-paste) by default
-* Substractive operation is done by adding `-` after operation ID, e.g. `{1.1.2-}`
+* Substractive operation is done by adding `-` after operation ID, e.g. `{1.1.2-}`, also same for multiple parts, e.g. `{1.1.2-;2.1.3-}`
+* Layers nesting (parent setup) have no impact on the build, as I can't figure out how to get access to parent info from the plugin code.
 
 Here's a screenshot of the potential setup:
 
