@@ -19,10 +19,14 @@ Here's a screenshot of the potential setup:
 
 Demo LightWave LWO file is also uploaded together with plugin to demonstrate the layer steps logic. Running the plugin with demo file should create 2 separate parts on 2 separate layers, that can be easily exported to STL file for slicing and 3D printing.
 
-Part 1:
+Open the model and run plugin:
+
+![image](https://github.com/user-attachments/assets/0ffcd463-428f-4df7-9901-9bd1dfee362e)
+
+Part 1 created:
 
 ![image](https://github.com/user-attachments/assets/f5efed46-7626-4e6a-b514-cacf824d0893)
 
-Part 2:
+Part 2 created:
 
 ![image](https://github.com/user-attachments/assets/16cd30cd-0703-450e-be28-1f35e4b7bc04)
